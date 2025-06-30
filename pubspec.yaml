@@ -13,7 +13,10 @@ dependencies:
     sdk: flutter
   url_strategy: ^0.2.0
   url_launcher: ^6.1.2
-  move_to_background: ^1.0.2
+  move_to_background:
+    git:
+      url: https://github.com/alaindeseine/move_to_background.git
+      ref: b585e84d42d7b9ca4309ed438eec3409aa57f8ff
 
 dev_dependencies:
   flutter_test:
